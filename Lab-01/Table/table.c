@@ -10,9 +10,9 @@ int main(){
 }
 
 
-//  gcc table.c -o table 
-//  .\table.exe
-// Name    Age     ID
-// Mr X    50      12345
-// Miss y  30      2345
+ gcc table.c -o table 
+ .\table.exe
+Name    Age     ID
+Mr X    50      12345
+Miss y  30      2345
                         

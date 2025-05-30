@@ -12,9 +12,9 @@ int main(){
 
 
 
-//   gcc single_printf.c -o  printf.exe
-//   .\printf.exe
-// Twinkle, twinkle, little star,
-// How I wonder what you are!
-// Up above the world so high,
-// Like a diamond in the sky.
+  gcc single_printf.c -o  printf.exe
+  .\printf.exe
+Twinkle, twinkle, little star,
+How I wonder what you are!
+Up above the world so high,
+Like a diamond in the sky.
