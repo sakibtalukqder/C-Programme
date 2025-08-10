@@ -1,0 +1,10 @@
+name: C Linter
+on: [push, pull_request]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt install clang-tidy cppcheck
+      - run: clang-tidy ./*.c -- -Iinclude
+      - run: cppcheck --enable=all --std=c11 ./
