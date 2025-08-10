@@ -8,7 +8,7 @@ int main() {
 }
 
 
- gcc .\Overwrite.c -o Over
- .\Over.exe
-Hi
-World  
+//  gcc .\Overwrite.c -o Over
+//  .\Over.exe
+// Hi
+// World  
