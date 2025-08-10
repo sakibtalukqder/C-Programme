@@ -5,7 +5,7 @@ int main() {
 
     // Input color or code
     printf("Enter a traffic light color (Red, Yellow, Green) or code (R, Y, G): ");
-    scanf("%s", input);
+    scanf("%9s", input);
 
     printf("Your Input %s \n",input);
 

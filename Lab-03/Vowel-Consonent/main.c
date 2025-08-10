@@ -6,7 +6,7 @@ int main() {
     // Input a character
     printf("Enter an alphabet: ");
     scanf(" %c", &ch);
-    
+
     switch (ch) {
         case 'a':
         case 'A':
