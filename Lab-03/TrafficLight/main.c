@@ -7,6 +7,8 @@ int main() {
     printf("Enter a traffic light color (Red, Yellow, Green) or code (R, Y, G): ");
     scanf("%s", input);
 
+    printf("Your Input %s \n",input);
+
     switch (input[0]) {
         case 'R':
         case 'r':
