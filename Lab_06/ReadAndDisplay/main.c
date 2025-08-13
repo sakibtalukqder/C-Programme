@@ -18,6 +18,6 @@ int main() {
         n - 1 != i ? printf(",") : 0;
     }
     printf("]");
-    
+
     return 0;
 }
