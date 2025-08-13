@@ -18,5 +18,5 @@ int main() {
         }
     }
 
-    printf("The Largest Element of the Array = %d",max);
+    printf("The Largest Element of the Array = %d", max);
 }
