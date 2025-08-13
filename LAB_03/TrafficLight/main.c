@@ -4,10 +4,11 @@ int main() {
     char input[10];
 
     // Input color or code
-    printf("Enter a traffic light color (Red, Yellow, Green) or code (R, Y, G): ");
+    printf(
+        "Enter a traffic light color (Red, Yellow, Green) or code (R, Y, G): ");
     scanf("%9s", input);
 
-    printf("Your Input %s \n",input);
+    printf("Your Input %s \n", input);
 
     switch (input[0]) {
         case 'R':
