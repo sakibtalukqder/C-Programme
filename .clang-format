@@ -3,10 +3,6 @@ IndentWidth: 4
 UseTab: Never
 
 BraceWrapping:
-  AfterFunction: false  # Keeps { on same line after function
+  AfterFunction: false
 
-SpacesInExpressions: false  # no spaces in expressions like n-1
-SpaceAroundOperators: false # (if you want to remove spaces around operators)
-
-# Optional: keep else, while etc. on same line
 AllowShortIfStatementsOnASingleLine: false
