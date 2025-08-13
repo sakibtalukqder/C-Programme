@@ -10,9 +10,9 @@ int main() {
     printf("Enter the second integer: ");
     scanf("%d", &num2);
 
-    // Find The Remainder 
+    // Find The Remainder
     remainder = num1 % num2;
     printf("\nRemainder of %d and %d is: %d\n", num1, num2, remainder);
-   
+
     return 0;
 }

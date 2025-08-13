@@ -15,7 +15,7 @@ int main() {
     area = length * width;
     printf("Area: %.2f\n", area);
 
-    // Calculate Perimeter 
+    // Calculate Perimeter
     perimeter = 2 * (length + width);
     printf("Perimeter: %.2f\n", perimeter);
 

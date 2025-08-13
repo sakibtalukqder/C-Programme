@@ -10,7 +10,7 @@ int main() {
 
     printf("Enter the second integer: ");
     scanf("%d", &num2);
-    
+
     // Display results
     printf("\n--- Results ---\n");
 
@@ -18,7 +18,7 @@ int main() {
     sum = num1 + num2;
     printf("Sum: %d\n", sum);
 
-    // Diffrence 
+    // Diffrence
     difference = num1 - num2;
     printf("Difference: %d\n", difference);
 
@@ -27,13 +27,12 @@ int main() {
     printf("Product: %d\n", product);
 
     // quotient
-    if (num2 != 0){
+    if (num2 != 0) {
         quotient = (float)num1 / num2;
         printf("Quotient: %.2f\n", quotient);
-    } else{
-       printf("Devide %d by %d = Infinity", num1,num2); 
+    } else {
+        printf("Devide %d by %d = Infinity", num1, num2);
     }
-    
-    
+
     return 0;
 }

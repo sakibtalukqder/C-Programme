@@ -13,7 +13,7 @@ int main() {
     scanf("%d", &batchNumber);
 
     printf("Enter your gender (M/F): ");
-    scanf(" %c", &gender); 
+    scanf(" %c", &gender);
 
     printf("Enter your CGPA: ");
     scanf("%f", &cgpa);

@@ -14,7 +14,7 @@ int main() {
     printf("Enter the third number: ");
     scanf("%d", &num3);
 
-    // Calculate average 
+    // Calculate average
     average = (num1 + num2 + num3) / 3.0;
     printf("\nAverage: %.2f\n", average);
 
