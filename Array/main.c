@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    int age;
     /*
     // ----------------- Code 01 -----------------
 
