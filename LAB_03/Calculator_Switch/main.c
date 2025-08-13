@@ -23,8 +23,7 @@ int main() {
         case '/':
             if (y == 0) {
                 printf("Error: Cannot Divide %.2f by %.2f", x, y);
-            }
-            else {
+            } else {
                 printf("%.2f / %.2f = %.2f", x, y, x / y);
             }
             break;
