@@ -12,10 +12,8 @@ int main() {
     char str[] = "***String_01";
     char str2[] = "__String_02";
 
-    printf("%s\n",str);
-    printf(
-        "%s\n",strrev(str)
-    );
+    printf("%s\n", str);
+    printf("%s\n", strrev(str));
     int size = strlen(str);
     printf("The Size = %d \n", size);
 
@@ -28,8 +26,8 @@ int main() {
 
     char str4[] = "Hello ";
     strcat(str4, str3);
-    printf("%s\n",str4);
+    printf("%s\n", str4);
 
-    int result = strcmp(str4,str2);
-    printf("Compare Result = %d",result);
+    int result = strcmp(str4, str2);
+    printf("Compare Result = %d", result);
 }
