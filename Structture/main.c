@@ -10,10 +10,9 @@ struct Student {
 // ST01 = {"Sakib", 1102, 3.94, 'M'};
 
 int main() {
-
     // struct Student ST01 = {"Sakib", 1102, 3.94, 'M'};
-    struct Student ST01; 
-    strcpy(ST01.name,"Sakib");
+    struct Student ST01;
+    strcpy(ST01.name, "Sakib");
     ST01.roll = 1102;
     ST01.cgpa = 3.94;
     ST01.gender = 'M';
