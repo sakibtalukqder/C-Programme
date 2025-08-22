@@ -27,6 +27,9 @@ int main() {
     char str4[] = "Hello ";
     strcat(str4, str3);
     printf("%s\n", str4);
+    
+    printf("Using puts() Function : \n");
+    puts(str4);
 
     int result = strcmp(str4, str2);
     printf("Compare Result = %d", result);
